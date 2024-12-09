@@ -1,0 +1,10 @@
+.about{
+    margin: 5rem 10rem;
+}
+
+.about p{
+    max-width: 720px;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}

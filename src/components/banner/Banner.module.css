@@ -20,7 +20,7 @@
     text-align: justify;
 }
 
-.blockIcon{
+.blockIcon {
     margin-top: 1.5rem;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .blockBtn {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .btn {
@@ -65,4 +65,9 @@
     height: 30rem;
     background: #fff;
     border-radius: .4rem;
+}
+
+.contact,
+.download {
+    margin-right: .5rem;
 }

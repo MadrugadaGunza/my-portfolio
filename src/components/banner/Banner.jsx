@@ -24,8 +24,14 @@ const Banner = () => {
                     expectativas de clientes e usuários.
                 </p>
                 <div className={styles.blockBtn}>
-                    <a href="#" className={`${styles.btn} ${styles.btnContact}`}>Contactar</a>
-                    <a href="#" className={`${styles.btn} ${styles.btnCV}`}>Baixar CV</a>
+                    <a href="#" className={`${styles.btn} ${styles.btnContact}`}>
+                        <i className={`fa-solid fa-envelope icon ${styles.contact}`}></i>
+                        Contactar
+                    </a>
+                    <a href="#" className={`${styles.btn} ${styles.btnCV}`}>
+                        <i className={`fa-solid fa-download icon ${styles.download}`}></i>
+                        Baixar CV
+                    </a>
                 </div>
 
                 {/* <div className={styles.blockIcon}>
