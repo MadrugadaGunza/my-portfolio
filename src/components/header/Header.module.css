@@ -1,0 +1,35 @@
+.header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 0 1px #eee;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+
+.header nav a.logo {
+    background: #A242E8;
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem .8rem;
+    border-radius: .2rem;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    margin-right: 1rem;
+}
+
+.header nav ul li:nth-child(4) {
+    margin-right: 0 !important;
+}

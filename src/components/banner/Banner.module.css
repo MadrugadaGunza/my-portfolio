@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.banner {
+    background: #EDF0F3;
+    width: 100%;
+    height: 91vh;
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.banner div {
+    width: 40rem;
+}
+
+.banner div p {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.blockIcon{
+    margin-top: 1.5rem;
+}
+
+.blockIcon i {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}
+
+.blockIcon .react {
+    color: #61DAFB;
+}
+
+.blockIcon .angular {
+    color: #DD0031;
+}
+
+.blockIcon .node {
+    color: #83CD29;
+}
+
+.blockIcon .javascript {
+    color: #F7DF1E;
+}
+
+.blockBtn {
+    margin-top: 2rem;
+}
+
+.btn {
+    background: #A242E8;
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: .3rem;
+}
+
+.btnCV {
+    margin-left: 1rem;
+}
+
+.banner img {
+    width: 30rem;
+    height: 30rem;
+    background: #fff;
+    border-radius: .4rem;
+}
